@@ -1,0 +1,27 @@
+{
+  "name": "jazzproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "node --watch index.js",
+    "dev": "nodemon index.js",
+    "db:create": "psql -U jazz -d jazzproject -f data/create_tables.sql",
+    "db:seed": "psql -U jazz -d jazzproject -f data/seeding.sql",
+    "db:reset": "npm run db:create && npm run db:seed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "eslint": "^9.17.0",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "pg": "^8.13.1",
+    "prettier": "^3.4.2",
+    "sequelize": "^6.37.5"
+  }
+}

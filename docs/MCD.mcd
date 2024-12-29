@@ -1,0 +1,7 @@
+ARTISTE: nom, instrument
+COMPOSER, 11 MORCEAU, 1N ARTISTE
+
+MORCEAU: nom, année
+ASSOCIER, 11 PARTITION, 0N MORCEAU
+
+PARTITION: nom fichier, chemin fichier

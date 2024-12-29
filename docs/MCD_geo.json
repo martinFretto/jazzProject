@@ -1,0 +1,25 @@
+{
+  "width": 221,
+  "height": 272,
+  "cx": [
+    [ "ARTISTE", 57 ],
+    [ "COMPOSER", 170 ],
+    [ "MORCEAU", 57 ],
+    [ "ASSOCIER", 170 ],
+    [ "PARTITION", 57 ]
+  ],
+  "cy": [
+    [ "ARTISTE", 43 ],
+    [ "COMPOSER", 43 ],
+    [ "MORCEAU", 136 ],
+    [ "ASSOCIER", 136 ],
+    [ "PARTITION", 229 ]
+  ],
+  "shift": [
+    [ "COMPOSER,MORCEAU,0", 0 ],
+    [ "COMPOSER,ARTISTE,0", 0 ],
+    [ "ASSOCIER,PARTITION,0", 0 ],
+    [ "ASSOCIER,MORCEAU,0", 0 ]
+  ],
+  "ratio": []
+}
